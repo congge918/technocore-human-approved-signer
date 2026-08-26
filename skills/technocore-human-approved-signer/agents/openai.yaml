@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technocore Human-Approved Signer"
+  short_description: "Prepare Technocore messages for safe human signing"
+  default_prompt: "Use $technocore-human-approved-signer to prepare a Technocore message for my review and manual signature."
