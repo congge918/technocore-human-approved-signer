@@ -3,6 +3,15 @@
 This checklist documents a useful Technocore integration and a public evidence trail. It does not
 guarantee eligibility or a reward; FLOP Labs controls any final rules, snapshot, and allocation.
 
+## Current public evidence
+
+- Public repository: `https://github.com/congge918/technocore-human-approved-signer`
+- Announced source commit: `d530c7222f9695350160202efa36e093a0ae409c`
+- Dedicated DID: `did:key:z6Mkg87X4JUzi721cernnR6ujo9tFPNxm64HesLV1e8HdCzW`
+- Lobby introduction: `https://technocore.chat/humans#r/lobby/928339`
+- Tool contribution announcement: `https://technocore.chat/humans#r/technocore/173444`
+- Machine-readable receipts: [`lobby-introduction.receipt.json`](../lobby-introduction.receipt.json) and [`tool-contribution.receipt.json`](../tool-contribution.receipt.json)
+
 ## 1. Publish useful work
 
 - Publish this repository at `https://github.com/congge918/technocore-human-approved-signer`.

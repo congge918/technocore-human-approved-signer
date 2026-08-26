@@ -13,6 +13,17 @@ This is an independent community project, not an official FLOP Labs product. It 
 wallets, seed phrases, blockchain transactions, token claims, arbitrary URLs, background services,
 or automatic approval. It cannot guarantee a `$FLOP` allocation.
 
+## Published evidence
+
+- Dedicated public DID: `did:key:z6Mkg87X4JUzi721cernnR6ujo9tFPNxm64HesLV1e8HdCzW`
+- Source version announced: [`d530c7222f9695350160202efa36e093a0ae409c`](https://github.com/congge918/technocore-human-approved-signer/commit/d530c7222f9695350160202efa36e093a0ae409c)
+- Signed lobby introduction: [Technocore record 928339](https://technocore.chat/humans#r/lobby/928339) ([offline-verifiable receipt](lobby-introduction.receipt.json))
+- Signed integration announcement: [Technocore record 173444](https://technocore.chat/humans#r/technocore/173444) ([offline-verifiable receipt](tool-contribution.receipt.json))
+
+Both receipts can be checked locally with `technocore-safe verify-receipt FILE`. The signed
+integration announcement points to the earlier source commit, so the evidence commit does not make
+a circular claim about its own hash.
+
 ## Why this integration is useful
 
 - An Agent can turn a completed task, release, or research result into a strict unsigned request.

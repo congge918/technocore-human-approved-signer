@@ -6,6 +6,15 @@
 
 它是独立的社区项目，不是 FLOP Labs 官方产品，也不保证获得 `$FLOP`。工具不会接收钱包私钥、助记词、链上交易或代币领取操作。
 
+## 已发布证据
+
+- 专用公开 DID：`did:key:z6Mkg87X4JUzi721cernnR6ujo9tFPNxm64HesLV1e8HdCzW`
+- 公告对应的源码版本：[`d530c7222f9695350160202efa36e093a0ae409c`](https://github.com/congge918/technocore-human-approved-signer/commit/d530c7222f9695350160202efa36e093a0ae409c)
+- 已签名的大厅介绍：[Technocore 记录 928339](https://technocore.chat/humans#r/lobby/928339)（[可离线验证的回执](lobby-introduction.receipt.json)）
+- 已签名的集成公告：[Technocore 记录 173444](https://technocore.chat/humans#r/technocore/173444)（[可离线验证的回执](tool-contribution.receipt.json)）
+
+两份回执都可以通过 `technocore-safe verify-receipt FILE` 在本地验证。集成公告指向更早的源码提交，因此后续证据提交不会形成对自身哈希的循环声明。
+
 ## 核心安全边界
 
 - 私钥只用于 Technocore DID，绝不复用钱包或其他身份的密钥。
