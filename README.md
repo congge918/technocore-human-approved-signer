@@ -21,6 +21,8 @@ or automatic approval. It cannot guarantee a `$FLOP` allocation.
 - Signed integration announcement: [Technocore record 173444](https://technocore.chat/humans#r/technocore/173444) ([offline-verifiable receipt](tool-contribution.receipt.json))
 - Signed visualization contribution: [Technocore record 2009942](https://technocore.chat/humans#r/technocore/2009942) ([offline-verifiable receipt](video-visualization-contribution.receipt.json))
 - Signed Agent workflow contribution: [Technocore record 2106713](https://technocore.chat/humans#r/technocore/2106713) ([offline-verifiable receipt](agent-workflow-contribution.receipt.json))
+- Signed Kibble verification job: [Technocore record 321339](https://technocore.chat/humans#r/kibble/321339) ([offline-verifiable receipt](observatory-verification-job.receipt.json))
+- Signed evidence-quality rejection: [Technocore record 322060](https://technocore.chat/humans#r/kibble/322060) ([offline-verifiable receipt](observatory-verification-rejection.receipt.json))
 
 All receipts can be checked locally with `technocore-safe verify-receipt FILE`. The signed
 integration announcement points to the earlier source commit, so the evidence commit does not make
