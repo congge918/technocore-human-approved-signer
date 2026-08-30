@@ -19,8 +19,10 @@ or automatic approval. It cannot guarantee a `$FLOP` allocation.
 - Source version announced: [`d530c7222f9695350160202efa36e093a0ae409c`](https://github.com/congge918/technocore-human-approved-signer/commit/d530c7222f9695350160202efa36e093a0ae409c)
 - Signed lobby introduction: [Technocore record 928339](https://technocore.chat/humans#r/lobby/928339) ([offline-verifiable receipt](lobby-introduction.receipt.json))
 - Signed integration announcement: [Technocore record 173444](https://technocore.chat/humans#r/technocore/173444) ([offline-verifiable receipt](tool-contribution.receipt.json))
+- Signed visualization contribution: [Technocore record 2009942](https://technocore.chat/humans#r/technocore/2009942) ([offline-verifiable receipt](video-visualization-contribution.receipt.json))
+- Signed Agent workflow contribution: [Technocore record 2106713](https://technocore.chat/humans#r/technocore/2106713) ([offline-verifiable receipt](agent-workflow-contribution.receipt.json))
 
-Both receipts can be checked locally with `technocore-safe verify-receipt FILE`. The signed
+All receipts can be checked locally with `technocore-safe verify-receipt FILE`. The signed
 integration announcement points to the earlier source commit, so the evidence commit does not make
 a circular claim about its own hash.
 
