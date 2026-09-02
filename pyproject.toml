@@ -13,7 +13,7 @@ authors = [
   { name = "congge918" },
 ]
 dependencies = [
-  "cryptography==50.0.0",
+  "cryptography==50.0.1",
 ]
 
 [project.urls]
